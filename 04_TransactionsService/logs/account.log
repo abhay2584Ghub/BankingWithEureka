@@ -1,0 +1,353 @@
+2026-06-03T08:33:03.964+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 9696 (C:\Training\SpringBootMicroServices\03_AccountService\target\classes started by student3 in C:\Training\SpringBootMicroServices\03_AccountService)
+2026-06-03T08:33:03.970+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-03T08:33:04.029+05:30  INFO 9696 --- [03_AccountService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-03T08:33:04.030+05:30  INFO 9696 --- [03_AccountService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-03T08:33:04.971+05:30  INFO 9696 --- [03_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-03T08:33:05.042+05:30  INFO 9696 --- [03_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2026-06-03T08:33:05.541+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-03T08:33:05.554+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-03T08:33:05.554+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-03T08:33:05.605+05:30  INFO 9696 --- [03_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1574 ms
+2026-06-03T08:33:05.752+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-03T08:33:06.137+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1caed89d
+2026-06-03T08:33:06.139+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-03T08:33:06.170+05:30  INFO 9696 --- [03_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-03T08:33:06.223+05:30  INFO 9696 --- [03_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-03T08:33:06.736+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-03T08:33:06.837+05:30  INFO 9696 --- [03_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-03T08:33:07.636+05:30  INFO 9696 --- [03_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-03T08:33:07.643+05:30  INFO 9696 --- [03_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-03T08:33:07.745+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-03T08:33:07.929+05:30  WARN 9696 --- [03_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-03T08:33:08.257+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-03T08:33:08.263+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 4.681 seconds (process running for 5.373)
+2026-06-03T08:34:25.219+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-03T08:34:25.219+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-03T08:34:25.220+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-03T08:34:25.356+05:30  WARN 9696 --- [03_AccountService] [http-nio-8181-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource accounts/customer/1 for request '/accounts/customer/1'.]
+2026-06-03T08:34:59.672+05:30  WARN 9696 --- [03_AccountService] [http-nio-8181-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource accounts/customer/1 for request '/accounts/customer/1'.]
+2026-06-03T08:40:07.115+05:30  WARN 9696 --- [03_AccountService] [http-nio-8181-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.msedcl.main.account.common.ApiResponse<com.msedcl.main.account.dto.AccountResponseDTO>> com.msedcl.main.account.controller.AccountController.createAccount(com.msedcl.main.account.dto.AccountRequestDTO): [Field error in object 'accountRequestDTO' on field 'accountType': rejected value [null]; codes [NotBlank.accountRequestDTO.accountType,NotBlank.accountType,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [accountRequestDTO.accountType,accountType]; arguments []; default message [accountType]]; default message [Account type cannot be blank]] ]
+2026-06-03T08:40:23.219+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=1, name=Seema, email=seema@gmail.com, mobileNumber=2345678901)
+2026-06-03T08:40:23.382+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : Account Details Saved
+2026-06-03T08:40:23.382+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T08:40:51.701+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=1, name=Seema, email=seema@gmail.com, mobileNumber=2345678901)
+2026-06-03T08:40:51.758+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : Account Details Saved
+2026-06-03T08:40:51.758+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T08:46:42.443+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-8] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=1, name=Seema, email=seema@gmail.com, mobileNumber=2345678901)
+2026-06-03T08:53:38.847+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.controller.AccountController     : Request Received To Update Balance
+2026-06-03T08:53:38.849+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.controller.AccountController     : BalanceUpdateRequestDTO(accountId=1, amount=5000.0, transactionType=DIPOSIT)
+2026-06-03T08:53:38.850+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : updateAccountBalance started
+2026-06-03T08:53:38.850+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : BalanceUpdateRequestDTO(accountId=1, amount=5000.0, transactionType=DIPOSIT)
+2026-06-03T08:53:38.854+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : Account Found
+2026-06-03T08:53:38.855+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T08:53:38.867+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : Customer Details Retrived
+2026-06-03T08:53:38.867+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=1, name=Seema, email=seema@gmail.com, mobileNumber=2345678901)
+2026-06-03T08:53:38.868+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : Throwing Exception :: AccountNotFoundException
+2026-06-03T08:53:38.888+05:30  WARN 9696 --- [03_AccountService] [http-nio-8181-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.msedcl.main.account.exception.AccountNotFoundException: Invalid AccountId :: 1]
+2026-06-03T08:53:52.634+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.controller.AccountController     : Request Received To Update Balance
+2026-06-03T08:53:52.634+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.controller.AccountController     : BalanceUpdateRequestDTO(accountId=2, amount=5000.0, transactionType=DIPOSIT)
+2026-06-03T08:53:52.634+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : updateAccountBalance started
+2026-06-03T08:53:52.634+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : BalanceUpdateRequestDTO(accountId=2, amount=5000.0, transactionType=DIPOSIT)
+2026-06-03T08:53:52.639+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : Account Found
+2026-06-03T08:53:52.639+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T08:53:52.648+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : Customer Details Retrived
+2026-06-03T08:53:52.648+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=1, name=Seema, email=seema@gmail.com, mobileNumber=2345678901)
+2026-06-03T08:53:52.648+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : Throwing Exception :: AccountNotFoundException
+2026-06-03T08:53:52.649+05:30  WARN 9696 --- [03_AccountService] [http-nio-8181-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.msedcl.main.account.exception.AccountNotFoundException: Invalid AccountId :: 2]
+2026-06-03T08:54:12.117+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-3] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=1, name=Seema, email=seema@gmail.com, mobileNumber=2345678901)
+2026-06-03T08:56:24.929+05:30  INFO 9696 --- [03_AccountService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2026-06-03T08:56:24.949+05:30  INFO 9696 --- [03_AccountService] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-03T08:56:24.960+05:30  INFO 9696 --- [03_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-03T08:56:24.966+05:30  INFO 9696 --- [03_AccountService] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-03T08:56:24.973+05:30  INFO 9696 --- [03_AccountService] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-03T08:56:24.981+05:30  INFO 9696 --- [03_AccountService] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-03T08:56:25.084+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 9696 (C:\Training\SpringBootMicroServices\03_AccountService\target\classes started by student3 in C:\Training\SpringBootMicroServices\03_AccountService)
+2026-06-03T08:56:25.085+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-03T08:56:25.310+05:30  INFO 9696 --- [03_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-03T08:56:25.325+05:30  INFO 9696 --- [03_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2026-06-03T08:56:25.436+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-03T08:56:25.438+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-03T08:56:25.439+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-03T08:56:25.459+05:30  INFO 9696 --- [03_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 371 ms
+2026-06-03T08:56:25.495+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-06-03T08:56:25.517+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c7d227e
+2026-06-03T08:56:25.518+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-06-03T08:56:25.519+05:30  INFO 9696 --- [03_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-03T08:56:25.568+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-03T08:56:25.572+05:30  INFO 9696 --- [03_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-03T08:56:25.631+05:30  INFO 9696 --- [03_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-03T08:56:25.635+05:30  INFO 9696 --- [03_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-03T08:56:25.756+05:30  WARN 9696 --- [03_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-03T08:56:25.869+05:30  INFO 9696 --- [03_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-03T08:56:25.878+05:30  INFO 9696 --- [03_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 0.827 seconds (process running for 1402.988)
+2026-06-03T08:56:25.883+05:30  INFO 9696 --- [03_AccountService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-03T08:56:53.182+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-03T08:56:53.182+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-03T08:56:53.183+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-03T08:56:53.194+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.controller.AccountController     : Request Received To Update Balance
+2026-06-03T08:56:53.195+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.controller.AccountController     : BalanceUpdateRequestDTO(accountId=1, amount=5000.0, transactionType=DIPOSIT)
+2026-06-03T08:56:53.196+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : updateAccountBalance started
+2026-06-03T08:56:53.196+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : BalanceUpdateRequestDTO(accountId=1, amount=5000.0, transactionType=DIPOSIT)
+2026-06-03T08:56:53.202+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : Account Found
+2026-06-03T08:56:53.203+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T08:56:53.216+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : Customer Details Retrived
+2026-06-03T08:56:53.217+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=1, name=Seema, email=seema@gmail.com, mobileNumber=2345678901)
+2026-06-03T08:56:53.217+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-2] c.m.m.a.service.AccountServiceImpl       : Throwing Exception :: AccountNotFoundException
+2026-06-03T08:56:53.224+05:30  WARN 9696 --- [03_AccountService] [http-nio-8181-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.msedcl.main.account.exception.AccountNotFoundException: Invalid AccountId :: 1]
+2026-06-03T09:00:54.163+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.controller.AccountController     : Request Received To Update Balance
+2026-06-03T09:00:54.163+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.controller.AccountController     : BalanceUpdateRequestDTO(accountId=1, amount=5000.0, transactionType=DEPOSIT)
+2026-06-03T09:00:54.163+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.service.AccountServiceImpl       : updateAccountBalance started
+2026-06-03T09:00:54.163+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.service.AccountServiceImpl       : BalanceUpdateRequestDTO(accountId=1, amount=5000.0, transactionType=DEPOSIT)
+2026-06-03T09:00:54.169+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.service.AccountServiceImpl       : Account Found
+2026-06-03T09:00:54.169+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:00:54.179+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.service.AccountServiceImpl       : Customer Details Retrived
+2026-06-03T09:00:54.179+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=1, name=Seema, email=seema@gmail.com, mobileNumber=2345678901)
+2026-06-03T09:00:54.179+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.service.AccountServiceImpl       : Starting Deposit
+2026-06-03T09:00:54.179+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.service.AccountServiceImpl       : Updating Balance - Deposit
+2026-06-03T09:00:54.180+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-5] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:02:11.188+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.controller.AccountController     : Request Received To Update Balance
+2026-06-03T09:02:11.188+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.controller.AccountController     : BalanceUpdateRequestDTO(accountId=1, amount=2000.0, transactionType=WITHDRAW)
+2026-06-03T09:02:11.188+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : updateAccountBalance started
+2026-06-03T09:02:11.188+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : BalanceUpdateRequestDTO(accountId=1, amount=2000.0, transactionType=WITHDRAW)
+2026-06-03T09:02:11.193+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : Account Found
+2026-06-03T09:02:11.193+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:02:11.204+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : Customer Details Retrived
+2026-06-03T09:02:11.204+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=1, name=Seema, email=seema@gmail.com, mobileNumber=2345678901)
+2026-06-03T09:02:11.204+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : Starting Withdraw
+2026-06-03T09:02:11.204+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : Updating Balance - Withdraw
+2026-06-03T09:02:11.204+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:12:09.087+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.controller.AccountController     : Request Received To Update Balance
+2026-06-03T09:12:09.087+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.controller.AccountController     : BalanceUpdateRequestDTO(accountId=2, amount=5000.0, transactionType=DEPOSIT)
+2026-06-03T09:12:09.087+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : updateAccountBalance started
+2026-06-03T09:12:09.088+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : BalanceUpdateRequestDTO(accountId=2, amount=5000.0, transactionType=DEPOSIT)
+2026-06-03T09:12:09.092+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : Account Found
+2026-06-03T09:12:09.093+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:12:09.103+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : Customer Details Retrived
+2026-06-03T09:12:09.103+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=1, name=Seema, email=seema@gmail.com, mobileNumber=2345678901)
+2026-06-03T09:12:09.103+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : Starting Deposit
+2026-06-03T09:12:09.103+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : Updating Balance - Deposit
+2026-06-03T09:12:09.103+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-1] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:15:21.053+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-8] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=2, name=Reema, email=reema@gmail.com, mobileNumber=1234567890)
+2026-06-03T09:15:21.152+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-8] c.m.m.a.service.AccountServiceImpl       : Account Details Saved
+2026-06-03T09:15:21.153+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-8] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:15:36.423+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=3, name=Meena, email=meena@gmail.com, mobileNumber=1122334455)
+2026-06-03T09:15:36.495+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : Account Details Saved
+2026-06-03T09:15:36.495+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-7] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:16:02.234+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.controller.AccountController     : Request Received To Update Balance
+2026-06-03T09:16:02.234+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.controller.AccountController     : BalanceUpdateRequestDTO(accountId=3, amount=5000.0, transactionType=DEPOSIT)
+2026-06-03T09:16:02.235+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.service.AccountServiceImpl       : updateAccountBalance started
+2026-06-03T09:16:02.235+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.service.AccountServiceImpl       : BalanceUpdateRequestDTO(accountId=3, amount=5000.0, transactionType=DEPOSIT)
+2026-06-03T09:16:02.238+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.service.AccountServiceImpl       : Account Found
+2026-06-03T09:16:02.238+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:16:02.247+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.service.AccountServiceImpl       : Customer Details Retrived
+2026-06-03T09:16:02.247+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=2, name=Reema, email=reema@gmail.com, mobileNumber=1234567890)
+2026-06-03T09:16:02.247+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.service.AccountServiceImpl       : Starting Deposit
+2026-06-03T09:16:02.247+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.service.AccountServiceImpl       : Updating Balance - Deposit
+2026-06-03T09:16:02.247+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-9] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:16:12.118+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.controller.AccountController     : Request Received To Update Balance
+2026-06-03T09:16:12.118+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.controller.AccountController     : BalanceUpdateRequestDTO(accountId=4, amount=5000.0, transactionType=DEPOSIT)
+2026-06-03T09:16:12.118+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.service.AccountServiceImpl       : updateAccountBalance started
+2026-06-03T09:16:12.119+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.service.AccountServiceImpl       : BalanceUpdateRequestDTO(accountId=4, amount=5000.0, transactionType=DEPOSIT)
+2026-06-03T09:16:12.123+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.service.AccountServiceImpl       : Account Found
+2026-06-03T09:16:12.123+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T09:16:12.131+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.service.AccountServiceImpl       : Customer Details Retrived
+2026-06-03T09:16:12.132+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.service.AccountServiceImpl       : CustomerResponseDTO(customerId=3, name=Meena, email=meena@gmail.com, mobileNumber=1122334455)
+2026-06-03T09:16:12.132+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.service.AccountServiceImpl       : Starting Deposit
+2026-06-03T09:16:12.132+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.service.AccountServiceImpl       : Updating Balance - Deposit
+2026-06-03T09:16:12.132+05:30  INFO 9696 --- [03_AccountService] [http-nio-8181-exec-10] c.m.m.a.service.AccountServiceImpl       : BaseEntity(createdAt=null, createBy=null, updatedAt=null, updateBy=null)
+2026-06-03T12:30:55.052+05:30  INFO 4372 --- [03_AccountService] [restartedMain] c.msedcl.main.transaction.Application    : Starting Application using Java 25.0.1 with PID 4372 (C:\Training\SpringBootMicroServices\04_TransactionsService\target\classes started by student3 in C:\Training\SpringBootMicroServices\04_TransactionsService)
+2026-06-03T12:30:55.056+05:30  INFO 4372 --- [03_AccountService] [restartedMain] c.msedcl.main.transaction.Application    : No active profile set, falling back to 1 default profile: "default"
+2026-06-03T12:30:55.120+05:30  INFO 4372 --- [03_AccountService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-03T12:30:55.120+05:30  INFO 4372 --- [03_AccountService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-03T12:30:55.783+05:30  INFO 4372 --- [03_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-03T12:30:55.842+05:30  INFO 4372 --- [03_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2026-06-03T12:30:56.383+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8282 (http)
+2026-06-03T12:30:56.396+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-03T12:30:56.396+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-03T12:30:56.441+05:30  INFO 4372 --- [03_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1320 ms
+2026-06-03T12:30:56.589+05:30  INFO 4372 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-03T12:30:56.974+05:30  INFO 4372 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d093f34
+2026-06-03T12:30:56.976+05:30  INFO 4372 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-03T12:30:57.007+05:30  INFO 4372 --- [03_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-03T12:30:57.069+05:30  INFO 4372 --- [03_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-03T12:30:57.584+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-03T12:30:57.689+05:30  INFO 4372 --- [03_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-03T12:30:58.490+05:30  INFO 4372 --- [03_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-03T12:30:58.499+05:30  INFO 4372 --- [03_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-03T12:30:58.599+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-03T12:30:58.806+05:30  WARN 4372 --- [03_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-03T12:30:59.147+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8282 (http) with context path '/'
+2026-06-03T12:30:59.154+05:30  INFO 4372 --- [03_AccountService] [restartedMain] c.msedcl.main.transaction.Application    : Started Application in 4.485 seconds (process running for 5.162)
+2026-06-03T12:31:39.883+05:30  INFO 4372 --- [03_AccountService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2026-06-03T12:31:39.890+05:30  INFO 4372 --- [03_AccountService] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-03T12:31:39.895+05:30  INFO 4372 --- [03_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-03T12:31:39.899+05:30  INFO 4372 --- [03_AccountService] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-03T12:31:39.903+05:30  INFO 4372 --- [03_AccountService] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-03T12:31:39.915+05:30  INFO 4372 --- [03_AccountService] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-03T12:31:40.015+05:30  INFO 4372 --- [03_AccountService] [restartedMain] c.msedcl.main.transaction.Application    : Starting Application using Java 25.0.1 with PID 4372 (C:\Training\SpringBootMicroServices\04_TransactionsService\target\classes started by student3 in C:\Training\SpringBootMicroServices\04_TransactionsService)
+2026-06-03T12:31:40.016+05:30  INFO 4372 --- [03_AccountService] [restartedMain] c.msedcl.main.transaction.Application    : No active profile set, falling back to 1 default profile: "default"
+2026-06-03T12:31:40.219+05:30  INFO 4372 --- [03_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-03T12:31:40.235+05:30  INFO 4372 --- [03_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2026-06-03T12:31:40.337+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8282 (http)
+2026-06-03T12:31:40.338+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-03T12:31:40.338+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-03T12:31:40.359+05:30  INFO 4372 --- [03_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 341 ms
+2026-06-03T12:31:40.389+05:30  INFO 4372 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-06-03T12:31:40.409+05:30  INFO 4372 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38f56459
+2026-06-03T12:31:40.409+05:30  INFO 4372 --- [03_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-06-03T12:31:40.410+05:30  INFO 4372 --- [03_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-03T12:31:40.459+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-03T12:31:40.463+05:30  INFO 4372 --- [03_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-03T12:31:40.560+05:30  INFO 4372 --- [03_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-03T12:31:40.564+05:30  INFO 4372 --- [03_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-03T12:31:40.724+05:30  WARN 4372 --- [03_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-03T12:31:40.938+05:30  INFO 4372 --- [03_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8282 (http) with context path '/'
+2026-06-03T12:31:40.951+05:30  INFO 4372 --- [03_AccountService] [restartedMain] c.msedcl.main.transaction.Application    : Started Application in 0.978 seconds (process running for 46.96)
+2026-06-03T12:31:40.954+05:30  INFO 4372 --- [03_AccountService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-03T12:33:41.497+05:30  INFO 4372 --- [03_AccountService] [http-nio-8282-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-03T12:33:41.497+05:30  INFO 4372 --- [03_AccountService] [http-nio-8282-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-03T12:33:41.499+05:30  INFO 4372 --- [03_AccountService] [http-nio-8282-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-03T12:33:41.536+05:30  INFO 4372 --- [03_AccountService] [http-nio-8282-exec-2] c.m.m.t.c.TransactionController          : Request Received To Fetch Transactions For AccountId :: 1
+2026-06-03T12:33:41.981+05:30  WARN 4372 --- [03_AccountService] [http-nio-8282-exec-2] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 1146, SQLState: 42S02
+2026-06-03T12:33:41.981+05:30  WARN 4372 --- [03_AccountService] [http-nio-8282-exec-2] org.hibernate.orm.jdbc.error             : Table 'accounts_db.transaction_details' doesn't exist
+2026-06-03T12:33:41.989+05:30 ERROR 4372 --- [03_AccountService] [http-nio-8282-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [Table 'accounts_db.transaction_details' doesn't exist] [select t1_0.transaction_id,t1_0.account_id,t1_0.amount,t1_0.created_by,t1_0.created_at,t1_0.transaction_date,t1_0.transaction_type,t1_0.updated_by,t1_0.updated_at from transaction_details t1_0 where t1_0.account_id=?]; SQL [select t1_0.transaction_id,t1_0.account_id,t1_0.amount,t1_0.created_by,t1_0.created_at,t1_0.transaction_date,t1_0.transaction_type,t1_0.updated_by,t1_0.updated_at from transaction_details t1_0 where t1_0.account_id=?]] with root cause
+
+java.sql.SQLSyntaxErrorException: Table 'accounts_db.transaction_details' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1056) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-7.0.2.jar:na]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:271) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:190) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:71) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValues(JdbcSelectExecutorStandardImpl.java:422) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:349) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:143) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:100) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:63) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:137) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:134) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:464) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:392) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.query.sqm.internal.SqmQueryImpl.doList(SqmQueryImpl.java:374) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:153) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:121) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:132) ~[spring-data-jpa-4.0.5.jar:4.0.5]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:99) ~[spring-data-jpa-4.0.5.jar:4.0.5]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:164) ~[spring-data-jpa-4.0.5.jar:4.0.5]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:154) ~[spring-data-jpa-4.0.5.jar:4.0.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.0.5.jar:4.0.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.0.5.jar:4.0.5]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:167) ~[spring-data-commons-4.0.5.jar:4.0.5]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.0.5.jar:4.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.0.5.jar:4.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:137) ~[spring-data-jpa-4.0.5.jar:4.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.7.jar:7.0.7]
+	at jdk.proxy5/jdk.proxy5.$Proxy160.findByAccountId(Unknown Source) ~[na:na]
+	at com.msedcl.main.transaction.service.TransactionServiceImpl.getTransactionsByAccount(TransactionServiceImpl.java:93) ~[classes/:na]
+	at com.msedcl.main.transaction.controller.TransactionController.getTransactionHistory(TransactionController.java:78) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]
+
+2026-06-03T12:34:55.910+05:30  INFO 4372 --- [03_AccountService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-03T12:34:55.914+05:30  INFO 4372 --- [03_AccountService] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-03T12:34:55.924+05:30  INFO 4372 --- [03_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-03T12:34:55.931+05:30  INFO 4372 --- [03_AccountService] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-03T12:34:55.934+05:30  INFO 4372 --- [03_AccountService] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-06-03T12:34:55.943+05:30  INFO 4372 --- [03_AccountService] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
