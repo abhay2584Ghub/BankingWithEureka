@@ -1,0 +1,55 @@
+spring:
+    application:
+        name: "AccountService"
+    datasource:
+        username: root
+        password: root123
+        url: jdbc:mysql://localhost:3306/accounts_db
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    profiles:
+        active:
+            - "prod"
+    config:
+        import: "optional:configserver:http://localhost:8787"
+        profiles:
+        active:
+            - "prod"
+springdoc:
+    api-docs:
+        enabled: false
+server:
+    port: 8181
+
+logging:
+    file:
+        name: logs/account.log
+
+eureka:
+    instance:
+        prefer-ip-address: true
+    client:
+        fetch-registry: true
+        register-with-eureka: true
+        service-url:
+            defaultZone: http://localhost:8070/eureka
+#server:
+#    port: 8181
+
+#Custome Properties - User in application
+#build:
+#    version: "4.0"
+#accounts:
+#    message: "Welcome to MSEDCL bank Account related REST API"
+#    contactDetails:
+#        name: "Sunil"
+#        email: "Sunil@msedcl.com"
+#    onCallSupport:
+#        - 1234567890
+#        - 9876543210
+#spring.application.name=03_AccountService
+#spring.datasource.username=root
+#spring.datasource.password=root123
+#spring.datasource.url=jdbc:mysql://localhost:3306/accounts_db
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#logging.file.name=logs/account.log
+#server.port=8181
