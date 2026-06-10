@@ -1,0 +1,23 @@
+#spring.application.name=05_ConfigServer
+spring:
+    application:
+        name: "config-server"
+    profiles:
+        active:
+            - git
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/abhay2584Ghub/msedcl-banking-config
+                    default-label: main
+                    timeout: 5
+                    clone-on-start: true # copy github repository on startup of application
+                    force-pull: true
+server:
+    port: 8787
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
